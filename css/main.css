@@ -20,18 +20,22 @@ body{
 	background-color: rgb(44, 46, 51);
 }
 
-/* // .fullwidth{
-//
-// 	margin:2%;
-// 	width:96%;
-// 	padding:2%;
-// 	box-sizing:border-box;
-//
-// 	border-radius: 25px;
-//   border: 2px solid rgb(56,82,164);
-//  	padding: 20px;
-//
-// } */
+ .fullwidth{
+
+ 	margin:2%;
+ 	width:96%;
+ 	padding:2%;
+ 	box-sizing:border-box;
+
+ 	border-radius: 25px;
+   /* border: 2px solid rgb(56,82,164); */
+	padding: 20px;
+
+ }
+
+ .fullwidth h1{
+	 text-align: center;
+ }
 .hidden{
   display:none;
 }
@@ -117,6 +121,8 @@ footer {
 
 }
 
+
+/* fire animation from https://codepen.io/yamanda/pen/RpNMaY */
 
 @keyframes scaleUpDown {
   0%, 100% {
